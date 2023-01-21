@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Caveat&family=Indie+Flower&family=Major+Mono+Display&family=Montserrat:wght@500&family=Poppins:wght@200;400;600&display=swap");
+.App {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container__nav {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav__logo {
+  width: 90px;
+  padding: 35px;
+}
+
+.container__display-image {
+  display: flex;
+  align-self: center;
+  max-width: 75%;
+  padding-top: 25px;
+}
+
+.container__head {
+  margin: 0;
+  padding: 30px 0 0 35px;
+  width: 400px;
+  font-size: 37px;
+}
+
+.container__article {
+  margin: 0;
+  padding: 10px 0 0 40px;
+  width: 300px;
+  line-height: 110%;
+}
+
+.card-items {
+  display: flex;
+  padding: 0 35px;
+  overflow: scroll;
+}
+.card {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.card__image {
+  margin-top: 54px;
+  max-height: 240px;
+  max-width: 180px;
+}
+
+.card__stats {
+  letter-spacing: 1px;
+  padding-top: 8px;
+}
+
+.card__stats__icon {
+  width: 14px;
+}
+
+.card__description {
+  margin: 0;
+  width: 175px;
+  padding: 5px 20px 5px 0;
+}
+
+.card__accounts {
+  margin: 0;
+  width: 150px;
+  padding-bottom: 30px;
+}
